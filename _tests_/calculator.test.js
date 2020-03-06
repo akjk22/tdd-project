@@ -7,6 +7,6 @@ describe ('Calculator', () => {
     });
     test('that mercury age will be calculated by multiplying inputted age in years by 365 and dividing by 87.6. Mercury age should be larger.', () => {
         let calculator = new Calculator();
-        expect(calculator.mercuryAge(20)).toEqual(20);
+        expect(calculator.mercuryAge(20)).toEqual(83);
     });
 });
