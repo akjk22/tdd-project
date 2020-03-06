@@ -9,4 +9,8 @@ describe ('Calculator', () => {
         let calculator = new Calculator();
         expect(calculator.mercuryAge(20)).toEqual(83);
     });
+    test('that venus age will be calculated by multiplying inputted age in years by 365 and dividing by 226.3. Mercury age should be larger.', () => {
+        let calculator = new Calculator();
+        expect(calculator.mercuryAge(20)).toEqual(20);
+    });
 });

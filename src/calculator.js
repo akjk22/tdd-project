@@ -10,6 +10,10 @@ export class Calculator {
   }
   mercuryAge(age) {
     this.age = age * 365 / (365 * .24);
-    return this.age;
+    return Math.floor(this.age);
+  }
+  venusAge(age) {
+    this.age = age * 365 / (365 * .62);
+    return Math.floor(this.age);
   }
 }
