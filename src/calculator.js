@@ -16,4 +16,8 @@ export class Calculator {
     this.age = age * 365 / (365 * .62);
     return Math.floor(this.age);
   }
+  marsAge(age) {
+    this.age = age * 365 / (365 * 1.88);
+    return Math.floor(this.age);
+  }
 }

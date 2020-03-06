@@ -11,6 +11,10 @@ describe ('Calculator', () => {
     });
     test('that venus age will be calculated by multiplying inputted age in years by 365 and dividing by 226.3. Mercury age should be larger.', () => {
         let calculator = new Calculator();
-        expect(calculator.mercuryAge(20)).toEqual(20);
+        expect(calculator.venusAge(20)).toEqual(32);
+    });
+    test('that mars age will be calculated by multiplying inputted age in years by 365 and dividing by 686.2. Mercury age should be larger.', () => {
+        let calculator = new Calculator();
+        expect(calculator.marsAge(20)).toEqual(32);
     });
 });
