@@ -7,7 +7,7 @@ export class Venus {
     return Math.floor(this.age);
   }
   lifeExpectancy(age) {
-    let lifeExpectancy = 80;
+    let lifeExpectancy = 93;
     return lifeExpectancy - this.venusAge(age);
   }
 }
