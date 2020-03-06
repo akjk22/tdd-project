@@ -20,4 +20,8 @@ export class Calculator {
     this.age = age * 365 / (365 * 1.88);
     return Math.floor(this.age);
   }
+  jupiterAge(age) {
+    this.age = age * 365 / (365 * 11.86);
+    return Math.floor(this.age);
+  }
 }
