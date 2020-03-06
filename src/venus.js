@@ -6,4 +6,8 @@ export class Venus {
     this.age = age * 365 / (365 * .62);
     return Math.floor(this.age);
   }
+  lifeExpectancy(age) {
+    let lifeExpectancy = 80;
+    return lifeExpectancy - venusAge(age);
+  }
 }
