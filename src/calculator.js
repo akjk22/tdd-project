@@ -24,4 +24,5 @@ export class Calculator {
     this.age = age * 365 / (365 * 11.86);
     return Math.floor(this.age);
   }
+  
 }
