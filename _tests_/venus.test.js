@@ -6,7 +6,7 @@ describe ('Venus', () => {
         expect(calculator.venusAge(20)).toEqual(32);
     });
     test('that life expectancy calculation works.', () => {
-      let lifeExpectancy = new lifeExpectancy();
-      expect(life.Expectancy(20)).toEqual(20);
+      let venus = new Venus();
+      expect(venus.lifeExpectancy(20)).toEqual(48);
   });
 });

@@ -8,6 +8,6 @@ export class Venus {
   }
   lifeExpectancy(age) {
     let lifeExpectancy = 80;
-    return lifeExpectancy - venusAge(age);
+    return lifeExpectancy - this.venusAge(age);
   }
 }
