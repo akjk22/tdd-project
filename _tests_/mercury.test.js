@@ -11,6 +11,6 @@ describe ('Mercury', () => {
     });
     test('if age surpasses life expectancy calculate number of years lived passsed expected year.', () => {
       let yearsSurpassed = new Mercury();
-      expect(yearsSurpassed.lifeExpectancy(100)).toEqual(3);
+      expect(yearsSurpassed.lifeExpectancy(100)).toEqual(270);
     });
 });
