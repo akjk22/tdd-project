@@ -8,5 +8,9 @@ describe ('Venus', () => {
     test('that life expectancy calculation works.', () => {
       let venusYearsLeft = new Venus();
       expect(venusYearsLeft.lifeExpectancy(20)).toEqual(61);
-  });
+    });
+    test('if age surpasses life expectancy calculate number of years lived passsed expected year.', () => {
+      let yearsSurpassed = new Venus();
+      expect(yearsSurpassed.lifeExpectancy(100)).toEqual(270);
+    });
 });

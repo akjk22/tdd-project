@@ -8,6 +8,9 @@ export class Venus {
   }
   lifeExpectancy(age) {
     let lifeExpectancy = 93;
+    if (this.venusAge(age) > lifeExpectancy) {
+      return this.venusAge(age) - lifeExpectancy;
+    }
     return lifeExpectancy - this.venusAge(age);
   }
 }
