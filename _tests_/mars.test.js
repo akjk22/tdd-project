@@ -5,4 +5,8 @@ describe ('Mars', () => {
         let calculator = new Mars();
         expect(calculator.marsAge(20)).toEqual(10);
     });
+    test('that life expectancy calculation works.', () => {
+      let marsYearsLeft = new Mars();
+      expect(marsYearsLeft.lifeExpectancy(20)).toEqual(20);
+  });
 });
