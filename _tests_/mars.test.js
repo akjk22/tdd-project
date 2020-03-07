@@ -7,6 +7,6 @@ describe ('Mars', () => {
     });
     test('that life expectancy calculation works.', () => {
       let marsYearsLeft = new Mars();
-      expect(marsYearsLeft.lifeExpectancy(20)).toEqual(20);
+      expect(marsYearsLeft.lifeExpectancy(20)).toEqual(60);
   });
 });
