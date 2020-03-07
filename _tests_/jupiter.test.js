@@ -8,9 +8,9 @@ describe ('Jupiter', () => {
     test('that life expectancy calculation works.', () => {
       let jupiterYearsLeft = new Jupiter();
       expect(jupiterYearsLeft.lifeExpectancy(20)).toEqual(4);
-  });
-  test('if age surpasses life expectancy calculate number of years lived passsed expected year.', () => {
-    let yearsSurpassed = new Jupiter();
-    expect(yearsSurpassed.lifeExpectancy(100)).toEqual(3);
-  });
+    });
+    test('if age surpasses life expectancy calculate number of years lived passsed expected year.', () => {
+      let yearsSurpassed = new Jupiter();
+      expect(yearsSurpassed.lifeExpectancy(100)).toEqual(3);
+    });
 });

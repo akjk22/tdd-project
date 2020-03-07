@@ -8,6 +8,9 @@ export class Mercury {
   }
   lifeExpectancy(age) {
     let lifeExpectancy = 146;
+    if (this.mercuryAge(age) > lifeExpectancy) {
+      return this.mercuryAge(age) - lifeExpectancy;
+    }
     return lifeExpectancy - this.mercuryAge(age);
   }
 }
