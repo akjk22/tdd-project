@@ -7,6 +7,10 @@ describe ('Mars', () => {
     });
     test('that life expectancy calculation works.', () => {
       let marsYearsLeft = new Mars();
-      expect(marsYearsLeft.lifeExpectancy(20)).toEqual(60);
-  });
+      expect(marsYearsLeft.lifeExpectancy(20)).toEqual(40);
+    });
+    test('if age surpasses life expectancy calculate number of years lived passsed expected year.', () => {
+      let yearsSurpassed = new Mars();
+      expect(yearsSurpassed.lifeExpectancy(55)).toEqual(40);
+    });
 });

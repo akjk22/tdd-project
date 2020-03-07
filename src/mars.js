@@ -7,7 +7,10 @@ export class Mars {
     return Math.floor(this.age);
   }
   lifeExpectancy(age) {
-    let lifeExpectancy = 70;
+    let lifeExpectancy = 50;
+    if (this.marsAge(age) > lifeExpectancy) {
+      return this.marsAge(age) - lifeExpectancy;
+    }
     return lifeExpectancy - this.marsAge(age);
   }
 }
