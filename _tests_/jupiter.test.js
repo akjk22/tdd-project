@@ -7,6 +7,6 @@ describe ('Jupiter', () => {
     });
     test('that life expectancy calculation works.', () => {
       let jupiterYearsLeft = new Jupiter();
-      expect(jupiterYearsLeft.lifeExpectancy(20)).toEqual(20);
+      expect(jupiterYearsLeft.lifeExpectancy(20)).toEqual(59);
   });
 });
